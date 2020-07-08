@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B6CDDF567DAA38E6CA8BE70 /* Pods_ZLAlipaySDK_No_UTDID_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397D177ECA46213895350BAA /* Pods_ZLAlipaySDK_No_UTDID_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +20,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6629EBF48548344B44AA982B /* libPods-ZLAlipaySDK_No_UTDID_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6271F8D8162940328724B4C4 /* libPods-ZLAlipaySDK_No_UTDID_Tests.a */; };
+		6E6C10BC902D716D2DB1EAD7 /* libPods-ZLAlipaySDK_No_UTDID_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CF0394CD47D7AE493BE025 /* libPods-ZLAlipaySDK_No_UTDID_Example.a */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		77C0DEA053DCF37C3DC16C25 /* Pods_ZLAlipaySDK_No_UTDID_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616E38240508328EDFDC9BDF /* Pods_ZLAlipaySDK_No_UTDID_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +41,7 @@
 		1868D3393251498CC76382D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		249B945BA076F177DDD00C8E /* Pods-ZLAlipaySDK_No_UTDID_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLAlipaySDK_No_UTDID_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZLAlipaySDK_No_UTDID_Example/Pods-ZLAlipaySDK_No_UTDID_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2AA5E4B598D229865D33CE97 /* Pods-ZLAlipaySDK_No_UTDID_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLAlipaySDK_No_UTDID_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZLAlipaySDK_No_UTDID_Tests/Pods-ZLAlipaySDK_No_UTDID_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		397D177ECA46213895350BAA /* Pods_ZLAlipaySDK_No_UTDID_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLAlipaySDK_No_UTDID_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CF0394CD47D7AE493BE025 /* libPods-ZLAlipaySDK_No_UTDID_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLAlipaySDK_No_UTDID_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZLAlipaySDK_No_UTDID_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLAlipaySDK_No_UTDID_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +61,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		616E38240508328EDFDC9BDF /* Pods_ZLAlipaySDK_No_UTDID_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLAlipaySDK_No_UTDID_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6271F8D8162940328724B4C4 /* libPods-ZLAlipaySDK_No_UTDID_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZLAlipaySDK_No_UTDID_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7477C0852FAA83CBD190A1E0 /* Pods-ZLAlipaySDK_No_UTDID_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLAlipaySDK_No_UTDID_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZLAlipaySDK_No_UTDID_Tests/Pods-ZLAlipaySDK_No_UTDID_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				1B6CDDF567DAA38E6CA8BE70 /* Pods_ZLAlipaySDK_No_UTDID_Example.framework in Frameworks */,
+				6E6C10BC902D716D2DB1EAD7 /* libPods-ZLAlipaySDK_No_UTDID_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				77C0DEA053DCF37C3DC16C25 /* Pods_ZLAlipaySDK_No_UTDID_Tests.framework in Frameworks */,
+				6629EBF48548344B44AA982B /* libPods-ZLAlipaySDK_No_UTDID_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +135,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				397D177ECA46213895350BAA /* Pods_ZLAlipaySDK_No_UTDID_Example.framework */,
-				616E38240508328EDFDC9BDF /* Pods_ZLAlipaySDK_No_UTDID_Tests.framework */,
+				39CF0394CD47D7AE493BE025 /* libPods-ZLAlipaySDK_No_UTDID_Example.a */,
+				6271F8D8162940328724B4C4 /* libPods-ZLAlipaySDK_No_UTDID_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +208,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				E9DABFD12C6BABB809615032 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -337,24 +336,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E9DABFD12C6BABB809615032 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZLAlipaySDK_No_UTDID_Example/Pods-ZLAlipaySDK_No_UTDID_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZLAlipaySDK_No_UTDID/ZLAlipaySDK_No_UTDID.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLAlipaySDK_No_UTDID.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZLAlipaySDK_No_UTDID_Example/Pods-ZLAlipaySDK_No_UTDID_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

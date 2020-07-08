@@ -8,35 +8,27 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZLAlipaySDK_No_UTDID'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZLAlipaySDK_No_UTDID.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/344717759@qq.com/ZLAlipaySDK_No_UTDID'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.version          = '0.1.1'
+  s.summary          = 'ZLAlipaySDK_No_UTDID'
+  s.description      = 'alipay兼容版SDK'
+  s.homepage         = 'https://github.com/Leonhardt-Lowe/ZLAlipaySDK_No_UTDID'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '344717759@qq.com' => '344717759@qq.com' }
-  s.source           = { :git => 'https://github.com/344717759@qq.com/ZLAlipaySDK_No_UTDID.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'ZLAlipaySDK_No_UTDID/Classes/**/*'
+  s.author           = { 'Lowe' => '344717759@qq.com' }
+  s.source           = { :git => 'https://github.com/Leonhardt-Lowe/ZLAlipaySDK_No_UTDID.git', :tag => s.version.to_s }
   
-  # s.resource_bundles = {
-  #   'ZLAlipaySDK_No_UTDID' => ['ZLAlipaySDK_No_UTDID/Assets/*.png']
-  # }
+  s.ios.deployment_target = '9.0'
+  s.source_files = 'ZLAlipaySDK_No_UTDID/Classes/**/*'
+#   s.resource_bundles = {
+#     'ZLAlipaySDK_No_UTDID' => ['ZLAlipaySDK_No_UTDID/Assets/*.*']
+#   }
+#   s.prefix_header_file = 'ZLAlipaySDK_No_UTDID/Classes/**/*.h'
+   s.public_header_files = "ZLAlipaySDK_No_UTDID/**/*.h"
+   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
+   s.frameworks = 'UIKit','Foundation'
+   s.libraries = 'z','xml2'
+   s.xcconfig = {
+     'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
+     'OTHER_LDFLAGS' => '-ObjC $(inherited)'
+   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

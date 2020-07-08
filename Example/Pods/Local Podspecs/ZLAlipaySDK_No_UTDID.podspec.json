@@ -1,0 +1,38 @@
+{
+  "name": "ZLAlipaySDK_No_UTDID",
+  "version": "0.1.1",
+  "summary": "ZLAlipaySDK_No_UTDID",
+  "description": "alipay兼容版SDK",
+  "homepage": "https://github.com/Leonhardt-Lowe/ZLAlipaySDK_No_UTDID",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lowe": "344717759@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Leonhardt-Lowe/ZLAlipaySDK_No_UTDID.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZLAlipaySDK_No_UTDID/Classes/**/*",
+  "public_header_files": "ZLAlipaySDK_No_UTDID/**/*.h",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "libraries": [
+    "z",
+    "xml2"
+  ],
+  "xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "OTHER_LDFLAGS": "-ObjC $(inherited)"
+  }
+}

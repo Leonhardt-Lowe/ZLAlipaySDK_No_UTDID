@@ -1,0 +1,6 @@
+module ZLAlipaySDK_No_UTDID {
+  umbrella header "ZLAlipaySDK_No_UTDID-umbrella.h"
+
+  export *
+  module * { export * }
+}
