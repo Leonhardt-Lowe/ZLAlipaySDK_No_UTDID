@@ -1,6 +1,6 @@
 {
   "name": "ZLAlipaySDK_No_UTDID",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "ZLAlipaySDK_No_UTDID",
   "description": "alipay兼容版SDK",
   "homepage": "https://github.com/Leonhardt-Lowe/ZLAlipaySDK_No_UTDID",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Leonhardt-Lowe/ZLAlipaySDK_No_UTDID.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"

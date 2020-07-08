@@ -1,5 +1,5 @@
 PODS:
-  - ZLAlipaySDK_No_UTDID (0.1.1)
+  - ZLAlipaySDK_No_UTDID (0.1.2)
 
 DEPENDENCIES:
   - ZLAlipaySDK_No_UTDID (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZLAlipaySDK_No_UTDID: 6cf077f38043e8f92aca5d8449fa9ad0fab5e050
+  ZLAlipaySDK_No_UTDID: 8c80e2ae3c8198dfceadaa0c14feb9a6bb2a26db
 
 PODFILE CHECKSUM: a3a82faed0d45d344fa021a49ea259289115c1b5
 

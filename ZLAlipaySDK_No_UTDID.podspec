@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZLAlipaySDK_No_UTDID'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'ZLAlipaySDK_No_UTDID'
   s.description      = 'alipay兼容版SDK'
   s.homepage         = 'https://github.com/Leonhardt-Lowe/ZLAlipaySDK_No_UTDID'
