@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZLAlipaySDK_No_UTDID_Example' do
+  pod 'ZLAlipaySDK_No_UTDID', :path => '../'
+
+  target 'ZLAlipaySDK_No_UTDID_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
