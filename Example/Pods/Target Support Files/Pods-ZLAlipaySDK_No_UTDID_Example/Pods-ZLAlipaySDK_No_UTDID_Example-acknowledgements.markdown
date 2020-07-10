@@ -1,6 +1,10 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## UTDID
+
+阿里悟空 © 2014. See http://m.laiwang.com/market/laiwang/wukong-serviceagreement.php
+
 ## ZLAlipaySDK_No_UTDID
 
 Copyright (c) 2020 344717759@qq.com <344717759@qq.com>

@@ -6,34 +6,54 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4863D9B7AB289E489DD574863D709C93 /* UTDID */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C0DC4233A651B8C85E7DB4DFFED3ECF8 /* Build configuration list for PBXAggregateTarget "UTDID" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = UTDID;
+		};
+		E17A61AB2E58B7FBC37C743425135D68 /* ZLAlipaySDK_No_UTDID */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BBF42DB2401569861E524A60607FF72B /* Build configuration list for PBXAggregateTarget "ZLAlipaySDK_No_UTDID" */;
+			buildPhases = (
+			);
+			dependencies = (
+				08E4A5F6E955D8D45EF09FCAA01644A6 /* PBXTargetDependency */,
+			);
+			name = ZLAlipaySDK_No_UTDID;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		00779822C850A4BE5302231874600E46 /* bridge.js in Sources */ = {isa = PBXBuildFile; fileRef = 7014F3368E01856901C6AD90390AFF49 /* bridge.js */; };
-		0086D6C62683ABDBE0FA1AB30311C49E /* APayAuthInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A8E2D2459736A85C568B611C5C7D213 /* APayAuthInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		13EC99F0D6E8D77C0B8EFCC1D25F3B1A /* AFServiceResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 60587DAFCDCF29B2C7F94E71A2F7F6B6 /* AFServiceResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1739E203A757859A519F5E7B95A8BFB8 /* shutdown_click@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = F3F01C6733AD69999C01EE05137D147F /* shutdown_click@2x.png */; };
-		1949C64D996E284DB099F741785B3381 /* alipay_msp_back@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = F5C81B2843F99AE0023993818BA775CD /* alipay_msp_back@2x.png */; };
-		27BFFC40C7743858D64E43C2FA52C036 /* shutdown@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 5D15AEA8691B436982E2C91321AC95F0 /* shutdown@2x.png */; };
-		37813FED544B8CDFEB6A5F90570A5184 /* AFServiceCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = A5295902248941505B20F4B9C2A4B20F /* AFServiceCenter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		553E81209D607557E82997345F8F6E95 /* ZLAlipaySDK_No_UTDID-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6209DAC8F33E9713D28DCC721F1E1E4B /* ZLAlipaySDK_No_UTDID-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		55DBA3D95325A39035C60EA7261CCBB4 /* refresh@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 18FBDF3FC2F68D0F8639891BB12B6D7E /* refresh@2x.png */; };
-		6704D7CA0BE0ECC50C873C669D6F181B /* bar@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 139817455F019660A36A2639A9E81505 /* bar@2x.png */; };
-		92F35B8219314C443E778E8297C0D612 /* refresh_click@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 757661B7DFC1B24FD41F04896E875F87 /* refresh_click@2x.png */; };
-		9CAA3B10C31C5B51D0E4B9C4E5FB5ECE /* ZLAlipaySDK_No_UTDID-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CA6167D3F8624B158FCCA3A7954A1C /* ZLAlipaySDK_No_UTDID-dummy.m */; };
-		9F36A341CED647E2059F9E5712A02698 /* Pods-ZLAlipaySDK_No_UTDID_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E07B61BDECED959BD07FCC42835A372C /* Pods-ZLAlipaySDK_No_UTDID_Tests-dummy.m */; };
-		A11FFC5C9FB3E4AAE56B7DE47F27E6BA /* alipay_msp_refresh@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 93E6E225F065E599BEEB755F6EC00338 /* alipay_msp_refresh@2x.png */; };
-		BABA59C6806F0B3140E2BEAED0423C7A /* AlipaySDK-inside-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = FEAC454D501C03416B68381D1C4C9CF4 /* AlipaySDK-inside-Info.plist */; };
-		DD6588BE622E3E09EA864E5BDD25DA6B /* Pods-ZLAlipaySDK_No_UTDID_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D63556183C4A3D238C72A6D0071AC3 /* Pods-ZLAlipaySDK_No_UTDID_Example-dummy.m */; };
-		F4A3773AA0A0C00BD947FB155DF69FEA /* AlipaySDK in Sources */ = {isa = PBXBuildFile; fileRef = D55F06A66A24DC231D89BA986F51D2C3 /* AlipaySDK */; };
-		F732AD05DEE295612B3F8530E878F076 /* AlipaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BBD46BE598726127741BD7C894657E7 /* AlipaySDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F36A341CED647E2059F9E5712A02698 /* Pods-ZLAlipaySDK_No_UTDID_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A74D6A9712EE83293BF370F1CA9EF4 /* Pods-ZLAlipaySDK_No_UTDID_Tests-dummy.m */; };
+		B2C7787FA9D0505902096246BA722B63 /* Pods-ZLAlipaySDK_No_UTDID_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BBAD379506124DE12AA874FF0191B4 /* Pods-ZLAlipaySDK_No_UTDID_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		49B3929BD05DB61307A1CAE0F1848D2E /* PBXContainerItemProxy */ = {
+		34A4293EDD342E642D4EB8F9FE4101DD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E17A61AB2E58B7FBC37C743425135D68;
 			remoteInfo = ZLAlipaySDK_No_UTDID;
+		};
+		4345D2CDADB1A2338A695F1CFAFBEA4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4863D9B7AB289E489DD574863D709C93;
+			remoteInfo = UTDID;
+		};
+		C558193B917127959E4A446883BFB6F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4863D9B7AB289E489DD574863D709C93;
+			remoteInfo = UTDID;
 		};
 		CA9CE8FEEC1F383C10A63F853AE94CE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -45,43 +65,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03CA6167D3F8624B158FCCA3A7954A1C /* ZLAlipaySDK_No_UTDID-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLAlipaySDK_No_UTDID-dummy.m"; sourceTree = "<group>"; };
-		0A8E2D2459736A85C568B611C5C7D213 /* APayAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APayAuthInfo.h; sourceTree = "<group>"; };
-		1106808881CCC82862F0CB382DA45999 /* ZLAlipaySDK_No_UTDID.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZLAlipaySDK_No_UTDID.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		139817455F019660A36A2639A9E81505 /* bar@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "bar@2x.png"; sourceTree = "<group>"; };
-		18FBDF3FC2F68D0F8639891BB12B6D7E /* refresh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "refresh@2x.png"; sourceTree = "<group>"; };
-		1E74325903F1E1DFC159974DBE12A7FF /* Pods-ZLAlipaySDK_No_UTDID_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLAlipaySDK_No_UTDID_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E7E7824A954B1418E3DA7F887B2F964 /* Pods-ZLAlipaySDK_No_UTDID_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLAlipaySDK_No_UTDID_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F05720458035CC78DB544EB3A938A61 /* UTDID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UTDID.debug.xcconfig; sourceTree = "<group>"; };
+		1BA63F89B0728668FF6C2008A92BE6B0 /* Pods-ZLAlipaySDK_No_UTDID_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLAlipaySDK_No_UTDID_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1DC6E99EADEA039F03993D3CC30B8250 /* ZLAlipaySDK_No_UTDID.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZLAlipaySDK_No_UTDID.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1EDB37A812737312A8C1351ADBAB7C75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		20844F4ABDAE785D14E75082088A119C /* libPods-ZLAlipaySDK_No_UTDID_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZLAlipaySDK_No_UTDID_Example.a"; path = "libPods-ZLAlipaySDK_No_UTDID_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		319B1DC5AEECF55D28715C4D3D4BDE18 /* ZLAlipaySDK_No_UTDID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLAlipaySDK_No_UTDID.debug.xcconfig; sourceTree = "<group>"; };
-		31E47FB1011F0ECAAD43D1669A38172E /* Pods-ZLAlipaySDK_No_UTDID_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAlipaySDK_No_UTDID_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B14D5CE1C8F9ACE7CBE42B0A97066B9 /* Pods-ZLAlipaySDK_No_UTDID_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAlipaySDK_No_UTDID_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5B39DC496DAD699CF4C18BFC70758A5B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5D15AEA8691B436982E2C91321AC95F0 /* shutdown@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "shutdown@2x.png"; sourceTree = "<group>"; };
-		60587DAFCDCF29B2C7F94E71A2F7F6B6 /* AFServiceResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFServiceResponse.h; sourceTree = "<group>"; };
-		6209DAC8F33E9713D28DCC721F1E1E4B /* ZLAlipaySDK_No_UTDID-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLAlipaySDK_No_UTDID-umbrella.h"; sourceTree = "<group>"; };
-		641C1F31DC0610791740ABA7BD3611CB /* Pods-ZLAlipaySDK_No_UTDID_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLAlipaySDK_No_UTDID_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7014F3368E01856901C6AD90390AFF49 /* bridge.js */ = {isa = PBXFileReference; includeInIndex = 1; path = bridge.js; sourceTree = "<group>"; };
-		74A2566C9CCB487FC6BC7BD220157392 /* ZLAlipaySDK_No_UTDID.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLAlipaySDK_No_UTDID.modulemap; sourceTree = "<group>"; };
-		757661B7DFC1B24FD41F04896E875F87 /* refresh_click@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "refresh_click@2x.png"; sourceTree = "<group>"; };
-		7E187B52AEF2F42E1621139B4FC163D0 /* ZLAlipaySDK_No_UTDID-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLAlipaySDK_No_UTDID-prefix.pch"; sourceTree = "<group>"; };
-		8AEE4F34693066476A59D7ECD15694E5 /* libZLAlipaySDK_No_UTDID.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZLAlipaySDK_No_UTDID.a; path = libZLAlipaySDK_No_UTDID.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BBD46BE598726127741BD7C894657E7 /* AlipaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AlipaySDK.h; sourceTree = "<group>"; };
-		8C2144C40AB958CE84450DFF31B5D244 /* Pods-ZLAlipaySDK_No_UTDID_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAlipaySDK_No_UTDID_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93E6E225F065E599BEEB755F6EC00338 /* alipay_msp_refresh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alipay_msp_refresh@2x.png"; sourceTree = "<group>"; };
+		2BA51D42B0969588BE191C7C6FA53906 /* UTDID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UTDID.release.xcconfig; sourceTree = "<group>"; };
+		469D327D7BE2E38CF42BE76EF2C9B731 /* Pods-ZLAlipaySDK_No_UTDID_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLAlipaySDK_No_UTDID_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5938A785B9B5559525D05CC23FCEBF64 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = ZLAlipaySDK_No_UTDID/Classes/iOS_SDK_No_UTDID/AlipaySDK.framework; sourceTree = "<group>"; };
+		63A74D6A9712EE83293BF370F1CA9EF4 /* Pods-ZLAlipaySDK_No_UTDID_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLAlipaySDK_No_UTDID_Tests-dummy.m"; sourceTree = "<group>"; };
+		72616DFD19C51C32AB792421FE77120C /* Pods-ZLAlipaySDK_No_UTDID_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLAlipaySDK_No_UTDID_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F2FF1EAAAB301A11FDC7EBBBE2F2E5B /* Pods-ZLAlipaySDK_No_UTDID_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAlipaySDK_No_UTDID_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		83BBAD379506124DE12AA874FF0191B4 /* Pods-ZLAlipaySDK_No_UTDID_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLAlipaySDK_No_UTDID_Example-dummy.m"; sourceTree = "<group>"; };
+		92CFE01B050AD527DC1EA232F1FB32E3 /* ZLAlipaySDK_No_UTDID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLAlipaySDK_No_UTDID.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0D63556183C4A3D238C72A6D0071AC3 /* Pods-ZLAlipaySDK_No_UTDID_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLAlipaySDK_No_UTDID_Example-dummy.m"; sourceTree = "<group>"; };
-		A5295902248941505B20F4B9C2A4B20F /* AFServiceCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AFServiceCenter.h; sourceTree = "<group>"; };
+		A8FEF609F46B89742158F154CC7D9054 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTDID.framework; sourceTree = "<group>"; };
 		AF91D882E4EC5B413F14F26B754BC028 /* libPods-ZLAlipaySDK_No_UTDID_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZLAlipaySDK_No_UTDID_Tests.a"; path = "libPods-ZLAlipaySDK_No_UTDID_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B70B81EB1A48CC9CE11F0BF1F4406331 /* Pods-ZLAlipaySDK_No_UTDID_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLAlipaySDK_No_UTDID_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C4B1F9C19EA83E3B15AFB0D50B28361D /* Pods-ZLAlipaySDK_No_UTDID_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAlipaySDK_No_UTDID_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D55F06A66A24DC231D89BA986F51D2C3 /* AlipaySDK */ = {isa = PBXFileReference; includeInIndex = 1; path = AlipaySDK; sourceTree = "<group>"; };
-		E07B61BDECED959BD07FCC42835A372C /* Pods-ZLAlipaySDK_No_UTDID_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLAlipaySDK_No_UTDID_Tests-dummy.m"; sourceTree = "<group>"; };
-		EA27AFBB4561BCBD66578B818FD9E083 /* Pods-ZLAlipaySDK_No_UTDID_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLAlipaySDK_No_UTDID_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F3F01C6733AD69999C01EE05137D147F /* shutdown_click@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "shutdown_click@2x.png"; sourceTree = "<group>"; };
-		F5C81B2843F99AE0023993818BA775CD /* alipay_msp_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "alipay_msp_back@2x.png"; sourceTree = "<group>"; };
-		F91E4EC118CFB3210046899D09863DBD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		FAD5EBBF4E13A8714973B731CACAC8B4 /* ZLAlipaySDK_No_UTDID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLAlipaySDK_No_UTDID.release.xcconfig; sourceTree = "<group>"; };
-		FEAC454D501C03416B68381D1C4C9CF4 /* AlipaySDK-inside-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlipaySDK-inside-Info.plist"; sourceTree = "<group>"; };
+		C36672D6831D9DAF719F469A2C716B46 /* ZLAlipaySDK_No_UTDID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLAlipaySDK_No_UTDID.debug.xcconfig; sourceTree = "<group>"; };
+		E0CC444C6F4623691FA1F044A5188F3B /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = ZLAlipaySDK_No_UTDID/Classes/iOS_SDK_No_UTDID/AlipaySDK.bundle; sourceTree = "<group>"; };
+		E50449ADF0F83239011AB406219CE6E6 /* Pods-ZLAlipaySDK_No_UTDID_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAlipaySDK_No_UTDID_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E7EAFC87094E3F1F8A657F5BE5F27F22 /* Pods-ZLAlipaySDK_No_UTDID_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAlipaySDK_No_UTDID_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E8EFF8CF0380C04115542A5CE293C266 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F0A1F36C810BC083ED4156EC4E6B9072 /* Pods-ZLAlipaySDK_No_UTDID_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLAlipaySDK_No_UTDID_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6917C4781C6D75CF7FAAC096DF72081 /* Pods-ZLAlipaySDK_No_UTDID_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLAlipaySDK_No_UTDID_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,14 +99,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B419AFE8E1F8B53DF6738E6BDF6C437 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		688B78AE83D9C09CB9BE74E449569763 /* Frameworks */ = {
+		CC21E600ED1AF9024170D71F9429FD41 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -109,98 +109,132 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A5E4CE626A084C440589D9CF22F6F99 /* Products */ = {
+		025C826B0C0965DF6113FF38081109CC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				20844F4ABDAE785D14E75082088A119C /* libPods-ZLAlipaySDK_No_UTDID_Example.a */,
-				AF91D882E4EC5B413F14F26B754BC028 /* libPods-ZLAlipaySDK_No_UTDID_Tests.a */,
-				8AEE4F34693066476A59D7ECD15694E5 /* libZLAlipaySDK_No_UTDID.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1E65A400041342CD55297E525DE70454 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6C9D04611FCB4C4C471758DBA4976326 /* ZLAlipaySDK_No_UTDID */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		337EBA4471848283A9D53EBFD74D8B28 /* AlipaySDK.bundle */ = {
-			isa = PBXGroup;
-			children = (
-				F5C81B2843F99AE0023993818BA775CD /* alipay_msp_back@2x.png */,
-				93E6E225F065E599BEEB755F6EC00338 /* alipay_msp_refresh@2x.png */,
-				139817455F019660A36A2639A9E81505 /* bar@2x.png */,
-				7014F3368E01856901C6AD90390AFF49 /* bridge.js */,
-				18FBDF3FC2F68D0F8639891BB12B6D7E /* refresh@2x.png */,
-				757661B7DFC1B24FD41F04896E875F87 /* refresh_click@2x.png */,
-				5D15AEA8691B436982E2C91321AC95F0 /* shutdown@2x.png */,
-				F3F01C6733AD69999C01EE05137D147F /* shutdown_click@2x.png */,
-			);
-			name = AlipaySDK.bundle;
-			path = ZLAlipaySDK_No_UTDID/Classes/iOS_SDK_No_UTDID/AlipaySDK.bundle;
-			sourceTree = "<group>";
-		};
-		6C9D04611FCB4C4C471758DBA4976326 /* ZLAlipaySDK_No_UTDID */ = {
-			isa = PBXGroup;
-			children = (
-				337EBA4471848283A9D53EBFD74D8B28 /* AlipaySDK.bundle */,
-				9A1C3ADEA022750C3EEFD5E30383E54D /* AlipaySDK.framework */,
-				930DBD06B98F74028BCD9F8DAE3199F7 /* Pod */,
-				BF268861740FCD2F3370328C9AA9B60E /* Support Files */,
-			);
-			name = ZLAlipaySDK_No_UTDID;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		930DBD06B98F74028BCD9F8DAE3199F7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5B39DC496DAD699CF4C18BFC70758A5B /* LICENSE */,
-				F91E4EC118CFB3210046899D09863DBD /* README.md */,
-				1106808881CCC82862F0CB382DA45999 /* ZLAlipaySDK_No_UTDID.podspec */,
+				E8EFF8CF0380C04115542A5CE293C266 /* LICENSE */,
+				1EDB37A812737312A8C1351ADBAB7C75 /* README.md */,
+				1DC6E99EADEA039F03993D3CC30B8250 /* ZLAlipaySDK_No_UTDID.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		9A1C3ADEA022750C3EEFD5E30383E54D /* AlipaySDK.framework */ = {
+		083F348BE9C7C45595CDC3F1640A133F /* Pods-ZLAlipaySDK_No_UTDID_Example */ = {
 			isa = PBXGroup;
 			children = (
-				D55F06A66A24DC231D89BA986F51D2C3 /* AlipaySDK */,
-				FEAC454D501C03416B68381D1C4C9CF4 /* AlipaySDK-inside-Info.plist */,
-				EE9231B5277CC22E86C246F14C6D6E5E /* Headers */,
-			);
-			name = AlipaySDK.framework;
-			path = ZLAlipaySDK_No_UTDID/Classes/iOS_SDK_No_UTDID/AlipaySDK.framework;
-			sourceTree = "<group>";
-		};
-		A3EA012F3C8908B3C6E793C9BF377D5C /* Pods-ZLAlipaySDK_No_UTDID_Example */ = {
-			isa = PBXGroup;
-			children = (
-				641C1F31DC0610791740ABA7BD3611CB /* Pods-ZLAlipaySDK_No_UTDID_Example-acknowledgements.markdown */,
-				B70B81EB1A48CC9CE11F0BF1F4406331 /* Pods-ZLAlipaySDK_No_UTDID_Example-acknowledgements.plist */,
-				A0D63556183C4A3D238C72A6D0071AC3 /* Pods-ZLAlipaySDK_No_UTDID_Example-dummy.m */,
-				C4B1F9C19EA83E3B15AFB0D50B28361D /* Pods-ZLAlipaySDK_No_UTDID_Example.debug.xcconfig */,
-				8C2144C40AB958CE84450DFF31B5D244 /* Pods-ZLAlipaySDK_No_UTDID_Example.release.xcconfig */,
+				0E7E7824A954B1418E3DA7F887B2F964 /* Pods-ZLAlipaySDK_No_UTDID_Example-acknowledgements.markdown */,
+				72616DFD19C51C32AB792421FE77120C /* Pods-ZLAlipaySDK_No_UTDID_Example-acknowledgements.plist */,
+				83BBAD379506124DE12AA874FF0191B4 /* Pods-ZLAlipaySDK_No_UTDID_Example-dummy.m */,
+				F6917C4781C6D75CF7FAAC096DF72081 /* Pods-ZLAlipaySDK_No_UTDID_Example-resources.sh */,
+				E50449ADF0F83239011AB406219CE6E6 /* Pods-ZLAlipaySDK_No_UTDID_Example.debug.xcconfig */,
+				E7EAFC87094E3F1F8A657F5BE5F27F22 /* Pods-ZLAlipaySDK_No_UTDID_Example.release.xcconfig */,
 			);
 			name = "Pods-ZLAlipaySDK_No_UTDID_Example";
 			path = "Target Support Files/Pods-ZLAlipaySDK_No_UTDID_Example";
 			sourceTree = "<group>";
 		};
-		BF268861740FCD2F3370328C9AA9B60E /* Support Files */ = {
+		19391079E3B07DAA0F77D6CDAC27D7CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				74A2566C9CCB487FC6BC7BD220157392 /* ZLAlipaySDK_No_UTDID.modulemap */,
-				03CA6167D3F8624B158FCCA3A7954A1C /* ZLAlipaySDK_No_UTDID-dummy.m */,
-				7E187B52AEF2F42E1621139B4FC163D0 /* ZLAlipaySDK_No_UTDID-prefix.pch */,
-				6209DAC8F33E9713D28DCC721F1E1E4B /* ZLAlipaySDK_No_UTDID-umbrella.h */,
-				319B1DC5AEECF55D28715C4D3D4BDE18 /* ZLAlipaySDK_No_UTDID.debug.xcconfig */,
-				FAD5EBBF4E13A8714973B731CACAC8B4 /* ZLAlipaySDK_No_UTDID.release.xcconfig */,
+				5938A785B9B5559525D05CC23FCEBF64 /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E65A400041342CD55297E525DE70454 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A9941A2FF6C06FB5BC699E84F7BC9DD /* ZLAlipaySDK_No_UTDID */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3A9941A2FF6C06FB5BC699E84F7BC9DD /* ZLAlipaySDK_No_UTDID */ = {
+			isa = PBXGroup;
+			children = (
+				19391079E3B07DAA0F77D6CDAC27D7CC /* Frameworks */,
+				025C826B0C0965DF6113FF38081109CC /* Pod */,
+				B029CE08DDBE95894ED326FDDADD44B6 /* Resources */,
+				6258D37AD4120622C1AC2204B55F1998 /* Support Files */,
+			);
+			name = ZLAlipaySDK_No_UTDID;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		55E3093C32DF4F2ADF3B0F43156E6F6F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F05720458035CC78DB544EB3A938A61 /* UTDID.debug.xcconfig */,
+				2BA51D42B0969588BE191C7C6FA53906 /* UTDID.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UTDID";
+			sourceTree = "<group>";
+		};
+		6258D37AD4120622C1AC2204B55F1998 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C36672D6831D9DAF719F469A2C716B46 /* ZLAlipaySDK_No_UTDID.debug.xcconfig */,
+				92CFE01B050AD527DC1EA232F1FB32E3 /* ZLAlipaySDK_No_UTDID.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ZLAlipaySDK_No_UTDID";
+			sourceTree = "<group>";
+		};
+		62F96040D86FFC4DAB287BA1130AC70F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20844F4ABDAE785D14E75082088A119C /* libPods-ZLAlipaySDK_No_UTDID_Example.a */,
+				AF91D882E4EC5B413F14F26B754BC028 /* libPods-ZLAlipaySDK_No_UTDID_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A3D1BB056E6F9B693813758501F473 /* UTDID */ = {
+			isa = PBXGroup;
+			children = (
+				78FAEAC7D29E571D460998F9E00A15C1 /* Frameworks */,
+				55E3093C32DF4F2ADF3B0F43156E6F6F /* Support Files */,
+			);
+			name = UTDID;
+			path = UTDID;
+			sourceTree = "<group>";
+		};
+		78FAEAC7D29E571D460998F9E00A15C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8FEF609F46B89742158F154CC7D9054 /* UTDID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79F064C21C74D8436939A013F9E44741 /* Pods-ZLAlipaySDK_No_UTDID_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				469D327D7BE2E38CF42BE76EF2C9B731 /* Pods-ZLAlipaySDK_No_UTDID_Tests-acknowledgements.markdown */,
+				1BA63F89B0728668FF6C2008A92BE6B0 /* Pods-ZLAlipaySDK_No_UTDID_Tests-acknowledgements.plist */,
+				63A74D6A9712EE83293BF370F1CA9EF4 /* Pods-ZLAlipaySDK_No_UTDID_Tests-dummy.m */,
+				F0A1F36C810BC083ED4156EC4E6B9072 /* Pods-ZLAlipaySDK_No_UTDID_Tests.debug.xcconfig */,
+				7F2FF1EAAAB301A11FDC7EBBBE2F2E5B /* Pods-ZLAlipaySDK_No_UTDID_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZLAlipaySDK_No_UTDID_Tests";
+			path = "Target Support Files/Pods-ZLAlipaySDK_No_UTDID_Tests";
+			sourceTree = "<group>";
+		};
+		B029CE08DDBE95894ED326FDDADD44B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0CC444C6F4623691FA1F044A5188F3B /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C7A1EA6487EB8F0B06797A73227019F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76A3D1BB056E6F9B693813758501F473 /* UTDID */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -209,9 +243,19 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1E65A400041342CD55297E525DE70454 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				1A5E4CE626A084C440589D9CF22F6F99 /* Products */,
-				EE6C6DE98FB42F8C5B242F5ECF0B5E7C /* Targets Support Files */,
+				C7A1EA6487EB8F0B06797A73227019F8 /* Pods */,
+				62F96040D86FFC4DAB287BA1130AC70F /* Products */,
+				D38DF14D5D9C48CFDF9DD211329895D8 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D38DF14D5D9C48CFDF9DD211329895D8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				083F348BE9C7C45595CDC3F1640A133F /* Pods-ZLAlipaySDK_No_UTDID_Example */,
+				79F064C21C74D8436939A013F9E44741 /* Pods-ZLAlipaySDK_No_UTDID_Tests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -221,50 +265,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E3007827133F034EBD9BAD20D84A3056 /* Pods-ZLAlipaySDK_No_UTDID_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				EA27AFBB4561BCBD66578B818FD9E083 /* Pods-ZLAlipaySDK_No_UTDID_Tests-acknowledgements.markdown */,
-				1E74325903F1E1DFC159974DBE12A7FF /* Pods-ZLAlipaySDK_No_UTDID_Tests-acknowledgements.plist */,
-				E07B61BDECED959BD07FCC42835A372C /* Pods-ZLAlipaySDK_No_UTDID_Tests-dummy.m */,
-				31E47FB1011F0ECAAD43D1669A38172E /* Pods-ZLAlipaySDK_No_UTDID_Tests.debug.xcconfig */,
-				4B14D5CE1C8F9ACE7CBE42B0A97066B9 /* Pods-ZLAlipaySDK_No_UTDID_Tests.release.xcconfig */,
-			);
-			name = "Pods-ZLAlipaySDK_No_UTDID_Tests";
-			path = "Target Support Files/Pods-ZLAlipaySDK_No_UTDID_Tests";
-			sourceTree = "<group>";
-		};
-		EE6C6DE98FB42F8C5B242F5ECF0B5E7C /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A3EA012F3C8908B3C6E793C9BF377D5C /* Pods-ZLAlipaySDK_No_UTDID_Example */,
-				E3007827133F034EBD9BAD20D84A3056 /* Pods-ZLAlipaySDK_No_UTDID_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		EE9231B5277CC22E86C246F14C6D6E5E /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				A5295902248941505B20F4B9C2A4B20F /* AFServiceCenter.h */,
-				60587DAFCDCF29B2C7F94E71A2F7F6B6 /* AFServiceResponse.h */,
-				8BBD46BE598726127741BD7C894657E7 /* AlipaySDK.h */,
-				0A8E2D2459736A85C568B611C5C7D213 /* APayAuthInfo.h */,
-			);
-			name = Headers;
-			path = Headers;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		50CB8BFEA3848FC7C9E30D75B29A37E7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AD4C773A708FC8373474C7C861B7EAB9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -272,15 +275,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5A6C6247F11D8F062D40D36A52AF61D /* Headers */ = {
+		FBEC0C9048AB40E8B9C746DA57F51922 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37813FED544B8CDFEB6A5F90570A5184 /* AFServiceCenter.h in Headers */,
-				13EC99F0D6E8D77C0B8EFCC1D25F3B1A /* AFServiceResponse.h in Headers */,
-				F732AD05DEE295612B3F8530E878F076 /* AlipaySDK.h in Headers */,
-				0086D6C62683ABDBE0FA1AB30311C49E /* APayAuthInfo.h in Headers */,
-				553E81209D607557E82997345F8F6E95 /* ZLAlipaySDK_No_UTDID-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,35 +303,19 @@
 			productReference = AF91D882E4EC5B413F14F26B754BC028 /* libPods-ZLAlipaySDK_No_UTDID_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		E17A61AB2E58B7FBC37C743425135D68 /* ZLAlipaySDK_No_UTDID */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD24B9D0515873E33639ECFDB4496CC9 /* Build configuration list for PBXNativeTarget "ZLAlipaySDK_No_UTDID" */;
-			buildPhases = (
-				E5A6C6247F11D8F062D40D36A52AF61D /* Headers */,
-				4C3A411EAD44F79FD18A5E46308B9978 /* Sources */,
-				3B419AFE8E1F8B53DF6738E6BDF6C437 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ZLAlipaySDK_No_UTDID;
-			productName = ZLAlipaySDK_No_UTDID;
-			productReference = 8AEE4F34693066476A59D7ECD15694E5 /* libZLAlipaySDK_No_UTDID.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		FF161EC49116E1BBFE0CB9A9BA911F8E /* Pods-ZLAlipaySDK_No_UTDID_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B0AA74C5C449DC702015C6AB52516C0 /* Build configuration list for PBXNativeTarget "Pods-ZLAlipaySDK_No_UTDID_Example" */;
+			buildConfigurationList = 975C7A728D814240AD3DDF0AC6A9792B /* Build configuration list for PBXNativeTarget "Pods-ZLAlipaySDK_No_UTDID_Example" */;
 			buildPhases = (
-				50CB8BFEA3848FC7C9E30D75B29A37E7 /* Headers */,
-				4BE0FFD3082E62B5D5240C2E8753B737 /* Sources */,
-				688B78AE83D9C09CB9BE74E449569763 /* Frameworks */,
+				FBEC0C9048AB40E8B9C746DA57F51922 /* Headers */,
+				695547D7D7E7069F382625832E6622E6 /* Sources */,
+				CC21E600ED1AF9024170D71F9429FD41 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EC3221C964E745C8EAB8F937687A9C94 /* PBXTargetDependency */,
+				E66CA44F07646F8E2E79CBDAF6B648DE /* PBXTargetDependency */,
+				EB326357D46EA26BEB16B2784D0DD5D6 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZLAlipaySDK_No_UTDID_Example";
 			productName = "Pods-ZLAlipaySDK_No_UTDID_Example";
@@ -358,41 +340,24 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1A5E4CE626A084C440589D9CF22F6F99 /* Products */;
+			productRefGroup = 62F96040D86FFC4DAB287BA1130AC70F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FF161EC49116E1BBFE0CB9A9BA911F8E /* Pods-ZLAlipaySDK_No_UTDID_Example */,
 				4F13D9A086A77094E8781FB69659F84E /* Pods-ZLAlipaySDK_No_UTDID_Tests */,
+				4863D9B7AB289E489DD574863D709C93 /* UTDID */,
 				E17A61AB2E58B7FBC37C743425135D68 /* ZLAlipaySDK_No_UTDID */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4BE0FFD3082E62B5D5240C2E8753B737 /* Sources */ = {
+		695547D7D7E7069F382625832E6622E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6588BE622E3E09EA864E5BDD25DA6B /* Pods-ZLAlipaySDK_No_UTDID_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C3A411EAD44F79FD18A5E46308B9978 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1949C64D996E284DB099F741785B3381 /* alipay_msp_back@2x.png in Sources */,
-				A11FFC5C9FB3E4AAE56B7DE47F27E6BA /* alipay_msp_refresh@2x.png in Sources */,
-				F4A3773AA0A0C00BD947FB155DF69FEA /* AlipaySDK in Sources */,
-				BABA59C6806F0B3140E2BEAED0423C7A /* AlipaySDK-inside-Info.plist in Sources */,
-				6704D7CA0BE0ECC50C873C669D6F181B /* bar@2x.png in Sources */,
-				00779822C850A4BE5302231874600E46 /* bridge.js in Sources */,
-				55DBA3D95325A39035C60EA7261CCBB4 /* refresh@2x.png in Sources */,
-				92F35B8219314C443E778E8297C0D612 /* refresh_click@2x.png in Sources */,
-				27BFFC40C7743858D64E43C2FA52C036 /* shutdown@2x.png in Sources */,
-				1739E203A757859A519F5E7B95A8BFB8 /* shutdown_click@2x.png in Sources */,
-				9CAA3B10C31C5B51D0E4B9C4E5FB5ECE /* ZLAlipaySDK_No_UTDID-dummy.m in Sources */,
+				B2C7787FA9D0505902096246BA722B63 /* Pods-ZLAlipaySDK_No_UTDID_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,11 +372,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EC3221C964E745C8EAB8F937687A9C94 /* PBXTargetDependency */ = {
+		08E4A5F6E955D8D45EF09FCAA01644A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UTDID;
+			target = 4863D9B7AB289E489DD574863D709C93 /* UTDID */;
+			targetProxy = C558193B917127959E4A446883BFB6F1 /* PBXContainerItemProxy */;
+		};
+		E66CA44F07646F8E2E79CBDAF6B648DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UTDID;
+			target = 4863D9B7AB289E489DD574863D709C93 /* UTDID */;
+			targetProxy = 4345D2CDADB1A2338A695F1CFAFBEA4E /* PBXContainerItemProxy */;
+		};
+		EB326357D46EA26BEB16B2784D0DD5D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZLAlipaySDK_No_UTDID;
 			target = E17A61AB2E58B7FBC37C743425135D68 /* ZLAlipaySDK_No_UTDID */;
-			targetProxy = 49B3929BD05DB61307A1CAE0F1848D2E /* PBXContainerItemProxy */;
+			targetProxy = 34A4293EDD342E642D4EB8F9FE4101DD /* PBXContainerItemProxy */;
 		};
 		EEE47CD651FC6A6CD6714901331B0A5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -422,28 +399,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1CE90B2CAB5B2F78F872FBBCFAF54A80 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C2144C40AB958CE84450DFF31B5D244 /* Pods-ZLAlipaySDK_No_UTDID_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -501,31 +456,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		73202623386C090AE1C2DD9EE04A2481 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAD5EBBF4E13A8714973B731CACAC8B4 /* ZLAlipaySDK_No_UTDID.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ZLAlipaySDK_No_UTDID/ZLAlipaySDK_No_UTDID-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MODULEMAP_FILE = Headers/Public/ZLAlipaySDK_No_UTDID/ZLAlipaySDK_No_UTDID.modulemap;
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ZLAlipaySDK_No_UTDID;
-				PRODUCT_NAME = ZLAlipaySDK_No_UTDID;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -593,75 +523,22 @@
 			};
 			name = Debug;
 		};
-		99032524BF405DB94C22DCCD3D356B6E /* Debug */ = {
+		8ED37D10C938D6798033B913DBFEF3A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31E47FB1011F0ECAAD43D1669A38172E /* Pods-ZLAlipaySDK_No_UTDID_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0F05720458035CC78DB544EB3A938A61 /* UTDID.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		ADE3CA60FD11B50CF63117F7EA0B74C5 /* Debug */ = {
+		962F522EF09CC165EFB93B054323CD5A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4B1F9C19EA83E3B15AFB0D50B28361D /* Pods-ZLAlipaySDK_No_UTDID_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E74CFFF4B3F99F420C3F6D054423C81A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 319B1DC5AEECF55D28715C4D3D4BDE18 /* ZLAlipaySDK_No_UTDID.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ZLAlipaySDK_No_UTDID/ZLAlipaySDK_No_UTDID-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MODULEMAP_FILE = Headers/Public/ZLAlipaySDK_No_UTDID/ZLAlipaySDK_No_UTDID.modulemap;
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ZLAlipaySDK_No_UTDID;
-				PRODUCT_NAME = ZLAlipaySDK_No_UTDID;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F4A1D6C9C9BC0EBE0FB4DB8CF84F5139 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B14D5CE1C8F9ACE7CBE42B0A97066B9 /* Pods-ZLAlipaySDK_No_UTDID_Tests.release.xcconfig */;
+			baseConfigurationReference = E7EAFC87094E3F1F8A657F5BE5F27F22 /* Pods-ZLAlipaySDK_No_UTDID_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -680,6 +557,111 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		99032524BF405DB94C22DCCD3D356B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A1F36C810BC083ED4156EC4E6B9072 /* Pods-ZLAlipaySDK_No_UTDID_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D19977EDC14D19C328968DA4B5C55FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA51D42B0969588BE191C7C6FA53906 /* UTDID.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4AA2F8A1E8E8A0AD15862C01B3FFAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CFE01B050AD527DC1EA232F1FB32E3 /* ZLAlipaySDK_No_UTDID.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F281FE7F5C8EB45FCE37513CA443C1BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36672D6831D9DAF719F469A2C716B46 /* ZLAlipaySDK_No_UTDID.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4A1D6C9C9BC0EBE0FB4DB8CF84F5139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F2FF1EAAAB301A11FDC7EBBBE2F2E5B /* Pods-ZLAlipaySDK_No_UTDID_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F981D33FA8B035DF5ACF5E2947FE25BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E50449ADF0F83239011AB406219CE6E6 /* Pods-ZLAlipaySDK_No_UTDID_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -702,20 +684,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B0AA74C5C449DC702015C6AB52516C0 /* Build configuration list for PBXNativeTarget "Pods-ZLAlipaySDK_No_UTDID_Example" */ = {
+		975C7A728D814240AD3DDF0AC6A9792B /* Build configuration list for PBXNativeTarget "Pods-ZLAlipaySDK_No_UTDID_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ADE3CA60FD11B50CF63117F7EA0B74C5 /* Debug */,
-				1CE90B2CAB5B2F78F872FBBCFAF54A80 /* Release */,
+				F981D33FA8B035DF5ACF5E2947FE25BA /* Debug */,
+				962F522EF09CC165EFB93B054323CD5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD24B9D0515873E33639ECFDB4496CC9 /* Build configuration list for PBXNativeTarget "ZLAlipaySDK_No_UTDID" */ = {
+		BBF42DB2401569861E524A60607FF72B /* Build configuration list for PBXAggregateTarget "ZLAlipaySDK_No_UTDID" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E74CFFF4B3F99F420C3F6D054423C81A /* Debug */,
-				73202623386C090AE1C2DD9EE04A2481 /* Release */,
+				F281FE7F5C8EB45FCE37513CA443C1BB /* Debug */,
+				E4AA2F8A1E8E8A0AD15862C01B3FFAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0DC4233A651B8C85E7DB4DFFED3ECF8 /* Build configuration list for PBXAggregateTarget "UTDID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED37D10C938D6798033B913DBFEF3A4 /* Debug */,
+				D19977EDC14D19C328968DA4B5C55FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,6 @@
 {
   "name": "ZLAlipaySDK_No_UTDID",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "ZLAlipaySDK_No_UTDID",
   "description": "alipay兼容版SDK",
   "homepage": "https://github.com/Leonhardt-Lowe/ZLAlipaySDK_No_UTDID",
@@ -13,19 +13,31 @@
   },
   "source": {
     "git": "https://github.com/Leonhardt-Lowe/ZLAlipaySDK_No_UTDID.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ZLAlipaySDK_No_UTDID/Classes/**/*",
-  "public_header_files": "ZLAlipaySDK_No_UTDID/**/*.h",
+  "resources": [
+    "ZLAlipaySDK_No_UTDID/Classes/iOS_SDK_No_UTDID/AlipaySDK.bundle"
+  ],
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES"
   },
+  "vendored_frameworks": "ZLAlipaySDK_No_UTDID/Classes/iOS_SDK_No_UTDID/AlipaySDK.framework",
   "frameworks": [
     "UIKit",
-    "Foundation"
+    "Foundation",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "QuartzCore",
+    "CoreText",
+    "CoreGraphics",
+    "UIKit",
+    "Foundation",
+    "CFNetwork",
+    "CoreMotion",
+    "WebKit"
   ],
   "libraries": [
     "z",
@@ -34,5 +46,10 @@
   "xcconfig": {
     "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
     "OTHER_LDFLAGS": "-ObjC $(inherited)"
+  },
+  "dependencies": {
+    "UTDID": [
+
+    ]
   }
 }
